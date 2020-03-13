@@ -13,6 +13,7 @@ public class Teste {
 			.ClientePj("João Francisco","036-450-111")
 			.item(5, smartphone)
 			.item(3,Headset)
+			.Funcionario("José")
 			.Build();
 	
 
@@ -28,6 +29,7 @@ public class Teste {
 				.item(15, Feijao)
 				.item(25, Arroz)
 				.item(10, Macarrao)
+				.Funcionario("Irineu")
 				.Build();
 	}
 }
